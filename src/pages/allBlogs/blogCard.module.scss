@@ -1,0 +1,67 @@
+.card{
+ 
+    height: max-content !important;
+   
+    line-height: 2;
+    font-size: 0.95rem !important;
+    text-align: right;
+    transition: all .5s;
+    background-color: #222831 !important;
+    color: white;
+    border: none !important;
+
+    &:hover{
+       
+    .BlogImg{
+        
+       }
+    }
+    h4{
+        border-bottom: 2px solid #ffbe33;
+    padding-bottom: 15px;
+    }
+    .authorImg{
+        height: 60px;
+        width: 60px;
+
+        img{
+
+            border-radius: 50%;
+            border: 2px solid #ffbe33;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .BlogImg{
+        width: 100%;
+        height: 200px;
+        
+        overflow: hidden;
+        border-radius: 5px 5px 45px 0 !important;
+        img{
+            filter: brightness(0.7);
+          
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .button{
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.2em ;
+        font-weight: bold;
+        display: inline-block;
+        padding: 4px 30px;
+        padding-bottom: 12px;
+        background-color: #ffbe33;
+        color: #ffffff;
+        border-radius: 45px;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        border: none;
+        height: 43px;
+        width: 100% !important;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+}

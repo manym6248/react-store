@@ -1,0 +1,54 @@
+.card{
+    width: 100%;
+    height: max-content !important;
+    min-height: 382px;
+    max-height: 382px;
+    background-color: #222831;
+    border: none !important;
+    color: #f1f2f3;
+     text-align: right;
+    .cardi{
+        height: 195px !important;
+        width: 100%;
+        background-color: #f1f2f3 !important;
+        border-radius: 5px 5px 45px 0;
+        padding: 25px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        .img{
+            max-height: 145px;
+            max-width: 100%;
+            transition: all 0.2s;
+          
+        }
+        
+    }
+    .text{
+        height: 188px;
+        padding: 25px !important;
+        padding-bottom: 15px !important;
+        position: relative;
+        p{
+         font-size: 0.95rem !important;
+         -webkit-box-orient: vertical;
+         display: -webkit-box;
+         -webkit-line-clamp: 2;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         white-space: normal;       
+        }
+    }
+    &:hover{
+        .img{
+              transform: scale(1.1);
+        }
+    }
+    .row1{
+            position: absolute;
+            width: 90%;
+            left: 20px;
+            top: 115px;     
+    }
+
+}

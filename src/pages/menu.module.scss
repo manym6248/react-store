@@ -1,0 +1,21 @@
+.body{
+    min-height: 100vh;
+    padding-top: 74px;
+    .items{
+        background-color: #f1f2f3;
+    }
+    .item{
+        border-radius: 25px !important;
+    background-color: #222831;
+    color: white;
+    cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width:990px) {
+    .body{
+        padding: 20px;
+    }
+    
+}

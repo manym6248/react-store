@@ -1,0 +1,22 @@
+.bodya{
+    padding-top: 74px;
+}
+
+.body{
+    min-height: 100Vh !important;
+   
+    .img {
+        height: 100% !important;
+    }
+    
+       
+    
+    
+    .row{
+        min-height:calc(100Vh - 74px) !important;
+    }
+}
+.text{
+    text-align: justify;
+    line-height: 1.7;
+}

@@ -1,0 +1,39 @@
+.body{
+    .faIcon{
+        color: #293031;
+      
+    }
+    min-height: 100Vh !important;
+    padding-top: 74px;
+    .img{
+        width: 100%;
+        max-height: 950px;
+        height: 400px ;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .img1{
+        border: 2px solid #ffbe33 ;
+    }
+    .card{
+        
+        border-radius: 20px;
+        p{
+            text-align: justify;
+            line-height: 1.7;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .img{
+        width: 100%;
+        max-height: 950px;
+        height: 200px !important;
+        margin-top: 10px;}
+
+        .card{
+            
+        }
+     
+}

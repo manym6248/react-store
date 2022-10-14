@@ -1,0 +1,27 @@
+.body{
+    min-height: 100vh;
+    padding-top: 74px;
+    .img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .btn12{
+        border: none;
+        height: 300px;
+        width: 300px ;
+        padding: 10px;
+        border-radius: 25px;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

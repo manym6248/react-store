@@ -1,0 +1,49 @@
+.box{
+    width: 100%;
+    height: max-content;
+    
+    .card{
+        background-color: #222831;
+        color: white;
+        height: max-content !important;
+        padding: 25px;
+        line-height: 2;
+        font-size: 0.95rem !important;
+        text-align: right;
+        h5{
+           
+            font-weight: bold;
+
+        }
+    }
+    .img{
+        
+        height: 115px;
+        width: 115px;
+        position: relative;
+        top:20px;
+        
+        display: flex;
+        -webkit-box-pack: center;
+        
+        &::before{
+            content: "";
+            position: absolute;
+            left: 49%;
+            top: 0px;
+            width: 20px;
+            height: 20px;
+            background-color: #ffbe33;
+            
+            transform: rotate(45deg) translateX(-50%);
+            
+        }
+        img{
+            border-radius: 50%;
+            border: 5px solid #ffbe33;
+            height: 100%;
+            width: 100%;
+            z-index: 10;
+        }
+    }
+}

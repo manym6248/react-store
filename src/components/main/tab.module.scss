@@ -1,0 +1,47 @@
+.tabs{
+    border: none !important;
+    justify-content: center;
+    
+    
+    button{
+        border-color: transparent !important;
+        color: #495057;
+        padding: 7px 25px !important;
+        margin: 0px 3px !important;
+        border-radius: 25px !important;
+        &:hover{
+            color: #495057;
+
+        }
+       
+       
+    }
+    
+    
+}
+
+@media screen and (max-width:720px) {
+    
+    .tabs{
+        border: none !important;
+        justify-content: center;
+        padding: 0 !important;
+        
+        button{
+            border-color: transparent !important;
+            color: #495057;
+            padding: 7px 8px !important;
+            margin: 0px 3px !important;
+            border-radius: 25px !important;
+            &:hover{
+                color: #495057;
+    
+            }
+           
+           
+        }
+        
+        
+    }
+
+}

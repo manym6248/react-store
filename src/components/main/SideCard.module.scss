@@ -1,0 +1,32 @@
+
+.card{
+    height: 260px !important;
+    background-color: #222831 !important;
+    color: white;
+    text-align: right;
+
+    .off{
+        font-size: 2.2rem;
+        span{
+            font-size: 1rem;
+        }
+    }
+    .imgDiv{
+
+        width: 175px;
+        height: 175px;
+        border-radius: 50%;
+        border: 5px solid #ffbe33;
+        overflow: hidden;
+        .img1{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    &:hover{
+        .img1{
+            transform: scale(1.1);
+        }
+    }
+    
+}
